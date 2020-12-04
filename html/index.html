@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Chatbot Prefeitura de Estrela</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<div id="wrapper" class="wrapper">
+			<div id="cabecalho">
+				<div id="brasao">
+					<img src="brasao.JPG" />
+				</div>
+				<div id="titulo">
+					<h1>Chatbot Prefeitura de Estrela</h1>
+				</div>
+				<div id="menu">
+					<a href="index.html">Início</a>
+					<a href="sobre.html">Sobre</a>
+				</div>
+			</div>
+			<div id="corpo">
+				<div id="mensagens">
+					<div id="msg_conteudo">
+						<p>Olá, meu nome é <b>Estrela Bot</b> sou o chatbot da Prefeitura de Estrela,</p>
+						<p>posso responder perguntas sobre os serviços e atendimentos oferecidos pela administração municipal.</p>
+						<p>qual é a sua dúvida?</p>
+					</div>
+				</div>
+				<div id="escrever">
+						<input type="text" id="escrever_text"  value="" />
+						<input type="button" id="escrever_send" value="Enviar" onclick="btn_enviar()"/>
+						<input type="button" id="recarregar_pagina" value="Recarregar" onclick="btn_recarregar()"/>
+				</div>
+			</div>
+			<div id="rodape">
+				<p>Distribuído sob a licença <a href="mitlicense.html">MIT</a></p>
+			</div>
+		</div>
+		<script src="script.js"></script>
+		<script src="jquery-3.4.1.min.js"></script>
+	</body>
+</html>
